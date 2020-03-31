@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: bank123
+    username: root
+    url: jdbc:mysql://localhost:3306/bank
+  jpa:
+    hibernate:
+      ddl-auto: update
